@@ -1,0 +1,12 @@
+{
+  "name": "@ds-turbo/storybook",
+  "packageManager": "yarn@3.6.3",
+  "private": true,
+  "dependencies": {
+    "@ds-turbo/foundation": "workspace:^",
+    "@ds-turbo/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
