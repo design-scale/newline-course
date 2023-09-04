@@ -6,7 +6,15 @@ export type ButtonProps = {
 
 const Button = ({ children }: ButtonProps) => (
   // Aula 157 - Button
-  <button style={{ background: `(${tokens.colors.primary[400].value}` }}>
+  <button
+    style={{
+      backgroundColor: tokens.colors.primary[300].original.value,
+      padding: '12px 24px',
+      border: 'none',
+      cursor: 'pointer',
+      borderRadius: '4px',
+    }}
+  >
     {children}
   </button>
 );
